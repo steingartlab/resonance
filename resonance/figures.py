@@ -1,3 +1,4 @@
+from pithy3 import *
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 from mpl_toolkits.axes_grid1 import make_axes_locatable
@@ -71,9 +72,6 @@ def plot_props(ax, n: int, gain: float):
     )
 
 
-#####################################
-
-
 class Figure:
     def __init__(self, dpi):
         clf()
@@ -82,9 +80,6 @@ class Figure:
             dpi=200
 
         self.dpi=dpi
-
-
-###############################################
 
 
 class FFTPlot(Figure):

@@ -117,9 +117,3 @@ def query_arduino_data(name, exp_name: str, additional_query_params: str = None)
     arduino_data_parsed = _type_parse(df=arduino_data_raw)
 
     return arduino_data_parsed
-
-def main():
-    pass
-
-if __name__ == '__main__':
-    main()

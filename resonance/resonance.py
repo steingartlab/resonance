@@ -1,1 +1,1 @@
-"""High-level analysis"""
+"""High-level analysis. This is usually forked in pithy for each experiment."""

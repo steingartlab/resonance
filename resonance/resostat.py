@@ -72,9 +72,6 @@ class Setup:
         self.filename = f'/drops/data/{machine}/{exp_name}/{exp_name}'
 
 
-##################################################
-
-
 class PreProcess(Setup):
     '''Performs an intermediate conversion after an experiment to transform
     data from raw .sqlite3 (read in as a pd.DataFrame) to a .hdf5
@@ -132,9 +129,6 @@ class PreProcess(Setup):
         self._save_datetimes(_id=df_raw['_id'])
         waves_array = _parse_waves(raw_data=df_raw)
         self._to_hdf(waves=waves_array)
-
-
-##################################################3
 
 
 class Resostat(Setup):

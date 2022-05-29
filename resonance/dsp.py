@@ -264,9 +264,6 @@ class SignalProcessing:
         return total_A_wo_outliers_smoothed
 
 
-##################################
-
-
 class FFT:
     """Rehashed FFT from Rob Mohr.
     

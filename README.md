@@ -31,3 +31,5 @@ It is designed to be called from the omnipotent [pithy](https://github.com/danst
     └── test_resostat.py
 
 ```
+
+TODO: unittests that aren't figures

@@ -87,7 +87,6 @@ class BioLogic:
         
         return parsed_potentiostat_data
 
-#####################################
 
 class Gamry:
     """LEGACY"""

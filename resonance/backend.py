@@ -2,7 +2,7 @@ import pandas as pd
 import pytz
 import sqlite3
 
-import limit_memory
+import resonance.memory as memory
 import dsp
 import utils
 
